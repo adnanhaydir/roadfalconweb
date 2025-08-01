@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/roundimage.png" />
+    <title>Road Falcon MC</title>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-section">
+        <img src="img/roadfalconwhite.png" alt="logo" class="logo-img" />
+        <h1>ROAD FALCON MC</h1>
+      </div>
+      <nav class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#visimisi">Visi Misi</a>
+        <a href="#produk">Produk</a>
+        <a href="#kontak">Kontak Kami</a>
+      </nav>
+    </header>
+    <aside id="sidebar">
+      <ul>
+        <li>
+          <span class="sidebar-logo">Road Falcon MC</span>
+        </li>
+        <li>
+          <a href="article.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"
+              />
+            </svg>
+            <span>Artikel</span></a
+          >
+        </li>
+        <li>
+          <a href="event.html"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"
+              /></svg
+            ><span>Event</span></a
+          >
+        </li>
+        <li>
+          <a href="gallery.html"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="M120-200q-33 0-56.5-23.5T40-280v-400q0-33 23.5-56.5T120-760h400q33 0 56.5 23.5T600-680v400q0 33-23.5 56.5T520-200H120Zm600-320q-17 0-28.5-11.5T680-560v-160q0-17 11.5-28.5T720-760h160q17 0 28.5 11.5T920-720v160q0 17-11.5 28.5T880-520H720Zm40-80h80v-80h-80v80ZM120-280h400v-400H120v400Zm40-80h320L375-500l-75 100-55-73-85 113Zm560 160q-17 0-28.5-11.5T680-240v-160q0-17 11.5-28.5T720-440h160q17 0 28.5 11.5T920-400v160q0 17-11.5 28.5T880-200H720Zm40-80h80v-80h-80v80Zm-640 0v-400 400Zm640-320v-80 80Zm0 320v-80 80Z"
+              /></svg
+            ><span>Galeri Foto</span></a
+          >
+        </li>
+        <li>
+          <a href="client.html"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="M185-80q-17 0-29.5-12.5T143-122v-105q0-90 56-159t144-88q-40 28-62 70.5T259-312v190q0 11 3 22t10 20h-87Zm147 0q-17 0-29.5-12.5T290-122v-190q0-70 49.5-119T459-480h189q70 0 119 49t49 119v64q0 70-49 119T648-80H332Zm148-484q-66 0-112-46t-46-112q0-66 46-112t112-46q66 0 112 46t46 112q0 66-46 112t-112 46Z"
+              /></svg
+            ><span>Klien Kami</span></a
+          >
+        </li>
+        <li>
+          <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z"
+              /></svg
+            ><span>Login</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+            </svg>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li><a href="signin.html">Sign In</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
+            </div>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+    <main>
+      <section class="heroimg">
+        <img src="img/Frame 5.png" alt="heroimg" />
+      </section>
+      <section id="about">
+        <h1>Tentang Kami</h1>
+        <p>
+          Didirikan pada tahun 2008 di Surakarta, Road Falcons MC lahir dari
+          kecintaan mendalam terhadap dunia otomotif dan semangat kebebasan
+          berkendara. Bermula dari sebuah bengkel kecil di sudut kota, kami
+          memulai perjalanan kami dengan spesialisasi dalam modifikasi sepeda
+          motor klasik dan custom build. Dalam waktu singkat, kualitas
+          pengerjaan kami yang presisi dan estetika desain yang unik mulai
+          dikenal luas. Kepercayaan pelanggan tumbuh, dan dari situlah kami
+          berkembang menjadi perusahaan manufaktur dan rekayasa otomotif yang
+          lebih besar. Saat ini, Road Falcons Engineering bergerak di tiga
+          bidang utama. <br /><br />
+          1. Kustomisasi Motor: Membuat motor kustom bergaya cafe racer, bobber,
+          scrambler, dan tracker sesuai identitas pemiliknya. <br />2. R&D
+          Komponen Otomotif: Mengembangkan dan memproduksi suku cadang
+          aftermarket seperti suspensi, sistem knalpot, dan perangkat elektronik
+          kendaraan. <br />3. Konsultasi Desain & Branding Otomotif: Membantu
+          merek lokal maupun internasional menciptakan produk otomotif yang
+          berkarakter. <br /><br />
+          Dengan semangat “Precision in Motion”, kami tidak hanya menciptakan
+          kendaraan, kami membangun karya seni yang dapat dikendarai. Road
+          Falcons kini memiliki jaringan mitra dan pelanggan di seluruh Asia
+          Tenggara, dengan visi menjadi ikon industri otomotif kreatif di kancah
+          global.
+        </p>
+      </section>
+      <section id="visimisi">
+        <h1>Visi dan Misi</h1>
+        <p>
+          Visi: <br /><br />
+          Menjadi perusahaan otomotif terdepan di Asia yang menginspirasi dunia
+          melalui inovasi, desain, dan kualitas dalam setiap detail kendaraan
+          bermotor. <br /><br />
+          Misi: <br /><br />
+          1. Menghadirkan Solusi Otomotif Berkualitas Tinggi Mengembangkan
+          produk dan layanan otomotif yang fungsional, tahan lama, dan bernilai
+          estetika tinggi. <br /><br />2. Menjadi Pusat Inovasi Kustomisasi
+          Kendaraan Menyediakan layanan modifikasi motor yang tidak hanya
+          mengikuti tren, tapi juga menciptakan tren baru yang ikonik dan
+          berkarakter. <br />
+          <br />3. Mendukung Komunitas & Budaya Otomotif Lokal Berkontribusi
+          aktif dalam perkembangan komunitas pecinta motor dan industri kreatif
+          otomotif melalui kolaborasi dan edukasi. <br />
+          <br />4. Mengedepankan Keamanan dan Kepuasan Pelanggan Menjamin setiap
+          kendaraan dan komponen yang kami produksi memenuhi standar keselamatan
+          dan memberikan pengalaman berkendara terbaik. <br />
+          <br />5. Tumbuh Berkelanjutan Bersama Lingkungan dan Teknologi
+          Menerapkan teknologi ramah lingkungan dan mendukung transformasi
+          menuju kendaraan yang lebih efisien dan berkelanjutan.
+        </p>
+      </section>
+      <section id="produk">
+        <h1>Produk</h1>
+        <div class="card-container">
+          <div class="card">
+            <img src="img/caferacer.jpg" alt="Card 1" />
+            <div class="card-content">
+              <h3>Kustom Motor</h3>
+              <p>Membuat motor kustom bergaya sesuai dengan keinginan anda.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/engine.jpg" alt="Card 2" />
+            <div class="card-content">
+              <h3>Komponen Otomotif</h3>
+              <p>Mengembangkan dan memproduksi suku cadang aftermarket.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img/cosulimg.jpg" alt="Card 3" />
+            <div class="card-content">
+              <h3>Konsultasi</h3>
+              <p>
+                Membantu membuat konsep atau ide untuk kebutuhan motor anda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <div class="contact-container">
+          <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <input type="text" name="subject" placeholder="Subject" required />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div id="text-kontak">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3"
+          >
+            <path
+              d="M120-120v-560h160v-160h400v320h160v400H520v-160h-80v160H120Zm80-80h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 320h80v-80h-80v80Zm0-160h80v-80h-80v80Zm0-160h80v-80h-80v80Zm160 480h80v-80h-80v80Zm0-160h80v-80h-80v80Z"
+            />
+          </svg>
+          <p>
+            Office : Jl dr Rajiman no 108, Surakarta, Jawa Tengah, Indonesia
+          </p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3"
+          >
+            <path
+              d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"
+            />
+          </svg>
+          <p>Email : cs@roadfalcon.com</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#e3e3e3"
+          >
+            <path
+              d="M120-120v-720h720v720H120Zm600-160H240v60h480v-60Zm-480-60h480v-60H240v60Zm0-140h480v-240H240v240Zm0 200v60-60Zm0-60v-60 60Zm0-140v-240 240Zm0 80v-80 80Zm0 120v-60 60Z"
+            />
+          </svg>
+          <p>Instagram : @roadfalcon.id</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
